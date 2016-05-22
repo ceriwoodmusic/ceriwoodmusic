@@ -1,0 +1,26 @@
+{
+  "name": "ceriwoodmusic",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "email": "aidanjalali@gmail.com",
+    "name": "Aidan Jalali"
+  },
+  "dependencies": {
+    "fastclick": "^1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "grunt": "^1",
+    "grunt-concurrent": "^2.1.0",
+    "grunt-contrib-connect": "^0.11.2",
+    "grunt-contrib-jshint": "^0",
+    "grunt-contrib-sass": "^0",
+    "grunt-contrib-watch": "^0",
+    "grunt-gh-pages": "^0",
+    "grunt-modernizr": "^0",
+    "grunt-postcss": "^0.5.5",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
+  }
+}

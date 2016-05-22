@@ -1,0 +1,70 @@
+$headerFont: 'Open Sans', sans-serif;
+$bodyFont: 'Open Sans', sans-serif;
+
+$smBreakpoint: 30em;
+
+* {
+    box-sizing: border-box;
+    tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: $bodyFont;
+    color: #777;
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+    font-family: $headerFont;
+    font-weight: 300;
+    color: #000;
+}
+
+p { font-size: 95%; }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+h1 {
+    line-height: 1.4;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.grid-half {
+    text-align: center;
+    
+    > div,
+    > ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 49.6%;
+        margin: 0;
+        padding: 1em .5em;
+    }
+}
+
+@media screen and (max-width: $smBreakpoint) {
+    .grid-half {
+        > div,
+        > ul {
+            width: 100%;
+        }
+    }
+}
